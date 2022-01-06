@@ -11,13 +11,3 @@ if (heure == 12 && meridien == "pm") {
 } else if (meridien == "am") {
   console.log(`${heure}:${minutes}`)
 }
-
-// console.log(meridien)
-// console.log(minutes)
-// if (heure == 12) {
-//   console.log(`12${minutes} am`)
-// } else if (heure > 12 && heure < 24) {
-//   console.log(`${heure % 12}${minutes} pm`)
-// } else {
-//   console.log(`${heure % 12}${minutes} am`)
-// }
